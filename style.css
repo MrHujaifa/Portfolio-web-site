@@ -429,4 +429,13 @@ a{
         margin-right: 130px;
         font-size: 13px;
     }
+
+    .container1 {
+        margin: 0;
+        padding: 0;
+    }
+    .container2 {
+        margin: 0;
+        padding: 0;
+    }
 }
