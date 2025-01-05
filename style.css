@@ -392,3 +392,41 @@ a{
 .info-down-cv-btn {
     margin-top: 35px;
 }
+
+
+@media screen {
+    
+}
+
+
+@media screen and (max-width:414px){
+    .hero-area{
+        position: absolute;
+        left: 0;
+        right: 0 ;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-area-img img{
+        height: 200px;
+    }
+
+    .testing{
+        position: absolute;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-img a img{
+        display: none;
+
+        
+     }
+    .information{
+        margin-right: 130px;
+        font-size: 13px;
+    }
+}
