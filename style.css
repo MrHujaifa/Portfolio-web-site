@@ -399,7 +399,7 @@ a{
 }
 
 
-@media screen and (max-width:414px){
+@media screen and (max-width:430px){
     .hero-area{
         position: absolute;
         left: 0;
