@@ -10,3 +10,24 @@ function toggleMenu() {
     }
 }
 
+
+let typed = new Typed(".auto-type", {
+    strings: ["Frontend Developer", "React Developer", "JS Developer"], // Corrected 'Strings' to 'strings'
+    typeSpeed: 50,
+    backSpeed: 50,
+    loop: true
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+

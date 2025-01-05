@@ -29,7 +29,7 @@ a{
 .logo {
     display: flex;
     align-items: center;
-    padding-right: 210px;
+    padding-right: 204px;
     position: relative;
 }
 
@@ -165,14 +165,13 @@ a{
     justify-content: space-between;
     padding-top: 152px;
 }
+
 .container1{
     background: url(https://devis-nextjs.vercel.app/images/background/hero-bg.jpg) no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 75vh;
     padding-right: 350px;
     padding-left: 380px;
-    
-    
 }
 
 .hire-me-btn button {
@@ -292,12 +291,11 @@ a{
 }
 
 .testing{
-    background:rgb(10,16,30) ;
-    height: 90vh;
+    background:rgb(10,16,30);
+    height: 75vh;
     padding-right: 350px;
     padding-left: 380px;
     position: relative;
-    
 }
 
 .info-img{
@@ -341,7 +339,8 @@ a{
     left: 50%;
     transform: translateX(-50%);
 }
-.info-header::after{
+
+.all-content-underline::after{
     content: "";
     position: absolute;
     background-color: rgb(0,253,236);
@@ -404,11 +403,9 @@ a{
 }
 
 
-@media screen {
-    
-}
 
 
+/* 
 @media screen and (max-width:430px){
     .hero-area{
         position: absolute;
@@ -448,4 +445,111 @@ a{
         margin: 0;
         padding: 0;
     }
+} */
+/* @media screen and (max-width:731px){
+    .hero-area{
+        position: absolute;
+        left: 0;
+        right: 0 ;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-area-img img{
+        height: 200px;
+    }
+
+    .testing{
+        position: absolute;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-img a img{
+        display: none;
+
+        
+     }
+    .information{
+        margin-right: 130px;
+        font-size: 13px;
+    }
+
+    .container1 {
+        margin: 0;
+        padding: 0;
+    }
+    .container2 {
+        margin: 0;
+        padding: 0;
+    }
+} */
+
+
+/*--------------------------------------------------- info are end -------------------------------------------------------------------------------------- */
+.services {
+    padding-top: 90px;
 }
+
+
+.service-header{
+    position: relative;
+}
+.services-content{
+    background-color: rgb(7,13,27);
+    padding-right: 352px;
+    padding-left:352px ;
+}
+
+.services-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 49px;
+}
+
+.service-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hov:hover{
+    color: rgb(0, 253, 236);
+}
+.service-img img {
+    opacity: 0.9;
+    height: 79px;
+    border: 2px solid #706969;
+    border-radius: 50%;
+    color: #e7cbcb;
+    padding: 9px;
+    
+    
+}
+
+.service-item{
+    text-align: center;
+    padding: 50px 30px;
+    border-radius: 3px;
+    transition: all .4s ease;
+    border: 1px solid #232935;
+    background-color: #101624;
+    
+}
+.service-item h1{
+    color: #ffffff;
+}
+.service-prag{
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+.service-item{
+    text-align: center;
+}
+
+
+
