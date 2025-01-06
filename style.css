@@ -500,7 +500,8 @@ a{
 .services-content{
     background-color: rgb(7,13,27);
     padding-right: 352px;
-    padding-left:352px ;
+    padding-left:352px;
+    height: 1056px;
 }
 
 .services-flex {
@@ -531,7 +532,7 @@ a{
 }
 
 .service-item{
-    text-align: center;
+    text-align: center; 
     padding: 50px 30px;
     border-radius: 3px;
     transition: all .4s ease;
@@ -551,5 +552,78 @@ a{
     text-align: center;
 }
 
+/* ------------------------services  area end -------------------------------------------- */
+
+.skill-content-area{
+    background-color: rgb(10, 16, 30);
+    padding-right: 352px;
+    padding-left:352px ;
+    height: 620px;
+}
 
 
+.skill {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.skill-progressbar{
+    width: 593px;
+    height: 2px;
+    background-color: #3f4551;
+}
+
+.progressbar{
+    background-color: rgb(0, 253, 236);
+    height: 2px;
+}
+
+.skill-progressbar-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.skill-header {
+    font-size: 26px;
+}
+.skill-progressbar-percentage {
+    color: rgb(0, 253, 236);
+}
+
+.skill-prag {
+    opacity: 0.8;
+    padding-top: 30px;
+}
+
+.skill-header-area {
+    padding-top: 35px;
+}
+.pr-three{
+    background-color: rgb(0, 253, 236);
+    width: 200px;
+}
+.pr-one{
+    background-color: rgb(0, 253, 236);
+    width: 170px;
+}
+.pr-two{
+    background-color: rgb(0, 253, 236);
+    width: 200px;
+}
+.pr-four{
+    background-color: rgb(0, 253, 236);
+    width: 500px;
+}
+.pr-five{
+    background-color: rgb(0, 253, 236);
+    width: 170px;
+}
+.pr-six{
+    background-color: rgb(0, 253, 236);
+    width: 400px;
+}
